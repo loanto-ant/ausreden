@@ -6,4 +6,4 @@ for (let i = 0; i < zitatEl.length; i++) {
 function kopieren(pos) {
    navigator.clipboard.writeText(zitat[pos]);
 }
-//bla
+//bla bla
