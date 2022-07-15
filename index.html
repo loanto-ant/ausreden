@@ -5,6 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <title>Ausreden</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <script src="main.js" defer></script>
       <style>
          :root {
             --akzent: orangered;
@@ -34,6 +35,7 @@
             box-shadow: -4px 4px 10px rgba(213, 213, 213, 0.671);
             background-color: var(--hintergrundHell);
             padding: 10px;
+            margin-bottom: 10px;
          }
          p {
             margin-bottom: 5px;
@@ -49,19 +51,19 @@
       <main>
          <div class="card">
             <p>Es ist ja schon spät</p>
-            <button>Kopieren</button>
+            <button onclick="kopieren(0)">Kopieren</button>
          </div>
          <div class="card">
             <p>Es ist ja noch so früh</p>
-            <button>Kopieren</button>
+            <button onclick="kopieren(1)">Kopieren</button>
          </div>
          <div class="card">
             <p>Es wird Zeit etwas trinken zu gehen</p>
-            <button>Kopieren</button>
+            <button onclick="kopieren(2)">Kopieren</button>
          </div>
          <div class="card">
             <p>Mein Gehirn ist im Urlaub</p>
-            <button>Kopieren</button>
+            <button onclick="kopieren(3)">Kopieren</button>
          </div>
       </main>
    </body>
